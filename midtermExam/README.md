@@ -1,26 +1,41 @@
-# Lumen PHP Framework
+# Exam Status: Completed Set B
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
-
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+The Practical Exam in SIA that focuses on CRUD API is designed to test the 
+ability of candidates to create, read, update, and delete data through the 
+use of Application Programming Interfaces (APIs). This exam is a crucial 
+component of the SIA certification process, as it assesses the candidate's 
+proficiency in developing and implementing practical solutions using CRUD 
+API. Candidates who pass this exam are expected to have a deep 
+understanding of CRUD operations and their importance in building robust 
+and scalable systems. With this certification, candidates can demonstrate 
+their competence in designing and developing reliable and efficient 
+software applications that meet the needs of modern businesses.
 
 ## Official Documentation
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+GET 
+browse all teachers
+```/api/users/browse```
 
-## Contributing
+GET 
+show specific teacher 
+```/api/users/search/{id}```
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+POST 
+make new teacher info
+```/api/users/create/```
 
-## Security Vulnerabilities
+DELETE 
+remove teacher from database
+```/api/users/delete/{id}```
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+PATCH 
+update teacher information from the database
+```/api/users/update/{id}```
+
 
 ## License
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Lumen framework is open-sourced software licensed under the [MIT 
+license](https://opensource.org/licenses/MIT).
+
