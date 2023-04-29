@@ -24,10 +24,13 @@ class TeacherController extends Controller
     }  
 
     public function createTeacher(Request $request) {
+
+
         $rules = [
-            'lastname' => 'required | max:50',
-            'firstname' => 'required | max:50',
-            'middlename' => 'required | max:50'
+            'firstname' => 'required | max:50 | alpha_num ',
+            'lastname' => 'required | max:50 | alpha_num ',
+            'middlename' => 'required | max:50 | alpha_num ',
+            'age' => 'required | gte:18'
         ];
 
         $this->validate($request, $rules);
@@ -63,9 +66,10 @@ class TeacherController extends Controller
     public function updateTeacher(Request $request, $id) {
 
         $rules = [
-            'lastname' => 'required | max:50',
-            'firstname' => 'required | max:50',
-            'middlename' => 'required | max:50'
+            'firstname' => 'required | max:50 | alpha_num ',
+            'lastname' => 'required | max:50 | alpha_num ',
+            'middlename' => 'required | max:50 | alpha_num ',
+            'age' => 'required | gte:18'
         ];
 
         $this->validate($request, $rules);

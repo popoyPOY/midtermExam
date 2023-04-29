@@ -19,13 +19,13 @@ $router->get('/', function () use ($router) {
 
 
 $router->group(['prefix' => 'api'], function($router) {
-    $router->get('users/browse', 'TeacherController@showTeachers');
+    $router->get('teacher/browse', 'TeacherController@showTeachers');
 
-    $router->post('users/create', 'TeacherController@createTeacher');
+    $router->post('teacher/create', 'TeacherController@createTeacher');
 
-    $router->get('users/search/{id}', 'TeacherController@searchTeacher');
+    $router->get('teacher/search/{id}', 'TeacherController@searchTeacher');
 
-    $router->delete('users/delete/{id}', 'TeacherController@deleteTeacher');
+    $router->delete('teacher/delete/{id}', 'TeacherController@deleteTeacher');
     
-    $router->patch('users/update/{id}', 'TeacherController@updateTeacher');
+    $router->patch('teacher/update/{id}', 'TeacherController@updateTeacher');
 });
