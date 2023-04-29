@@ -1,15 +1,6 @@
 # Exam Status: Completed Set B
 
-The Practical Exam in SIA that focuses on CRUD API is designed to test the 
-ability of candidates to create, read, update, and delete data through the 
-use of Application Programming Interfaces (APIs). This exam is a crucial 
-component of the SIA certification process, as it assesses the candidate's 
-proficiency in developing and implementing practical solutions using CRUD 
-API. Candidates who pass this exam are expected to have a deep 
-understanding of CRUD operations and their importance in building robust 
-and scalable systems. With this certification, candidates can demonstrate 
-their competence in designing and developing reliable and efficient 
-software applications that meet the needs of modern businesses.
+The Practical Exam in SIA that focuses on CRUD API is designed to test the ability of candidates to create, read, update, and delete data through the use of Application Programming Interfaces (APIs). This exam is a crucial component of the SIA subject process, as it assesses the candidate's proficiency in developing and implementing practical solutions using CRUD API. Candidates who pass this exam are expected to have a deep understanding of CRUD operations and their importance in building robust and scalable systems. With this certification, candidates can demonstrate their competence in designing and developing reliable and efficient software applications that meet the needs of modern businesses.
 
 ## Official Documentation
 
